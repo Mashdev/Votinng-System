@@ -1,0 +1,38 @@
+.text-field{
+-fx-background-color:transparent;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color: transparent;   
+}
+.text-field:hover{
+-fx-background-color:transparent;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color:black;
+    
+}
+
+
+.text-field:focused{
+-fx-background-color:transparent;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color: darkblue;
+ 
+}
+.button{
+-fx-background-radius: 30, 30, 29, 28;
+-fx-padding: 3px 10px 3px 10px;
+-fx-background-color: darkblue;
+-fx-text-fill: white ;
+}
+.button:hover{
+-fx-background-radius: 30, 30, 29, 28;
+-fx-padding: 3px 10px 3px 10px;
+-fx-background-color: white;
+-fx-text-fill:darkblue ;
+    
+}
